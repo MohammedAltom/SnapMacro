@@ -1,0 +1,401 @@
+{
+  "Events": [
+    {
+      "Delta": 0,
+      "EventType": "MouseDown",
+      "Timestamp": 1601,
+      "X": 89.47000122070312,
+      "Y": 20.920000076293945
+    },
+    {
+      "Delta": 0,
+      "EventType": "MouseUp",
+      "Timestamp": 1704,
+      "X": 89.47000122070312,
+      "Y": 20.920000076293945
+    },
+    {
+      "Delta": 0,
+      "EventType": "MouseDown",
+      "Timestamp": 3600,
+      "X": 37.81999969482422,
+      "Y": 95.37000274658203
+    },
+    {
+      "Delta": 0,
+      "EventType": "MouseUp",
+      "Timestamp": 3689,
+      "X": 37.81999969482422,
+      "Y": 95.37000274658203
+    },
+    {
+      "Delta": 0,
+      "EventType": "MouseDown",
+      "Timestamp": 4865,
+      "X": 49.66999816894531,
+      "Y": 38.5099983215332
+    },
+    {
+      "Delta": 0,
+      "EventType": "MouseUp",
+      "Timestamp": 4985,
+      "X": 49.66999816894531,
+      "Y": 38.5099983215332
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 5401
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 5901
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 5935
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 5968
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6001
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6033
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6066
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6099
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6132
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6165
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6198
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6231
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6265
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6297
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6330
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6365
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6397
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6430
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6464
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6496
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6528
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6561
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6594
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6627
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6660
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6693
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6727
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6759
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6792
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6825
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6858
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6892
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6924
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6957
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 6991
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7023
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7057
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7089
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7122
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7156
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7188
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7222
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7254
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7287
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7320
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7353
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7386
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7419
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7452
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7485
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7518
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7551
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7585
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7617
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7650
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7683
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7717
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7750
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7783
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7816
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7849
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7881
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7915
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7947
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 7980
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "Ctrl",
+      "Timestamp": 8013
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "A",
+      "Timestamp": 8042
+    },
+    {
+      "EventType": "KeyUp",
+      "KeyName": "A",
+      "Timestamp": 8185
+    },
+    {
+      "EventType": "KeyDown",
+      "KeyName": "X",
+      "Timestamp": 22265
+    },
+    {
+      "EventType": "KeyUp",
+      "KeyName": "X",
+      "Timestamp": 22425
+    },
+    {
+      "EventType": "KeyUp",
+      "KeyName": "Ctrl",
+      "Timestamp": 22537
+    }
+  ]
+}
