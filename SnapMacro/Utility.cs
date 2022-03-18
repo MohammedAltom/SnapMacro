@@ -325,6 +325,7 @@ namespace SnapMacro
             while(sy > ey)
             {
                 sy -= .5;
+
                 
                 events.Add(new Event
                 {
@@ -352,6 +353,151 @@ namespace SnapMacro
                 Timestamp = timestamp,
                 X = ex,
                 Y = ey
+            });
+            timestamp += 50;
+            return events;
+        }
+
+        public static List<Event> DragHard(ref int timestamp)
+        {
+            var events = new List<Event>();
+            timestamp += 15;
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseDown",
+                Timestamp = timestamp + 5,
+                X = 68.75,
+                Y = 92.2699966430664
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 55,
+                X = 68.75,
+                Y = 91.33000183105469
+            });
+
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp+7,
+                X = 68.75,
+                Y = 89.69000244140625
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 68.75,
+                Y = 87.3499984741211
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 68.75,
+                Y = 84.30000305175781
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 9,
+                X = 68.75,
+                Y = 80.08999633789062
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 7,
+                X = 68.75,
+                Y = 74.94000244140625
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 68.75,
+                Y = 66.73999786376953
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 68.75,
+                Y = 55.2599983215332
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 68.75,
+                Y = 39.56999969482422
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 9,
+                X = 68.75,
+                Y = 25.520000457763672
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 7,
+                X = 68.75,
+                Y = 11.699999809265137
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 68.75,
+                Y = -0.4699999988079071
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 66.66000366210938,
+                Y = -8.899999618530273
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 8,
+                X = 65.83000183105469,
+                Y = -16.8700008392334
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseMove",
+                Timestamp = timestamp + 9,
+                X = 63.33000183105469,
+                Y = -24.360000610351562
+            });
+            events.Add(new Event
+            {
+                Delta = 0,
+                EventType = "MouseUp",
+                Timestamp = timestamp,
+                X = 63.33000183105469,
+                Y = -24.360000610351562
             });
             timestamp += 50;
             return events;
@@ -574,12 +720,13 @@ namespace SnapMacro
                     timestamp += 10000;
                     model.Events.AddRange(Click(ref timestamp, coordinatesDict["Settings"]));
                     timestamp += 3000;
-                    for (int k = 0; k < 23; k++)
+                    /*for (int k = 0; k < 23; k++)
                     {
                         model.Events.AddRange(Drag(ref timestamp, coordinatesDict["LogoutDragtStart"],
                         coordinatesDict["LogoutDragtEnd"]));
                         timestamp += 5;
-                    }
+                    }*/
+                    model.Events.AddRange(DragHard(ref timestamp));
                     timestamp += 3000;
                     model.Events.AddRange(Click(ref timestamp, coordinatesDict["Logout"]));
                     timestamp += 3000;
